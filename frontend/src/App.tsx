@@ -5,10 +5,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <body>
-        asdadsadsad
+        <header>
+          hola
+        </header>
+        <div>
+          askdpsakpfksakdsak
+        </div>
+        <input type="text"/>
         {/* TU CODIGO AQUI  */}
-      </body>
     </div>
   );
 }
