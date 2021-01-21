@@ -4,6 +4,9 @@ import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
+import golden from './imagenes/img/golden_cachorro.jpg';
+import jack from './imagenes/img/jack_russell.jpg';
+import poo from './imagenes/img/poodles_blanco.jpg';
 
 
 function App() {
@@ -31,36 +34,36 @@ function App() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="...img/golden_cachorro.jpg"
+      src={golden}
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Golden Retriver </h3>
+      <p>Un perro muy actvo</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
+      src={jack}
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Jack Russel </h3>
+      <p>perros que aprenden rapido, su hiperactividad los describe </p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
+      src={poo}
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Poodles</h3>
+      <p>Perros acompañantes y de mal genio .</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
